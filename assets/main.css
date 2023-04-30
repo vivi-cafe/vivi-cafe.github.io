@@ -26,7 +26,7 @@ section {
     display: grid;
     flex-direction: row;
     align-items: center;
-    text-align: right!important;
+    text-align: right !important;
 }
 
 .clickable {
@@ -271,9 +271,44 @@ footer a:hover {
     background-color: #d2691e85;
 }
 
+#coffe {
+    background: url("./images/coffe.jpg");
+}
+
+#brew {
+    background: url("./images/brew.jpg");
+}
+
+#mokio {
+    background: url("./images/mokio.jpg");
+}
+
+#shake {
+    background: url('./images/shake.jpg');
+}
+
+#handcoffe {
+    background: url('./images/handcoffe.jpg');
+}
+
+#icecoffe {
+    background: url('./images/icecoffe.jpg');
+}
+
+#hotdrink {
+    background: url('./images/hotdrink.jpg');
+}
+
+#smoti {
+    background: url('./images/smoti.jpg');
+}
+
+#dessert {
+    background: url('./images/dessert.jpg');
+}
+
 /* media  queries */
-@media screen and (max-width: 575.98px)
-{
+@media screen and (max-width: 575.98px) {
     section {
         flex-direction: column;
         height: auto;
@@ -310,6 +345,4 @@ footer a:hover {
     }
 }
 
-@media screen and (min-width: 1200px)
-{
-}
+@media screen and (min-width: 1200px) {}
